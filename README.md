@@ -1,5 +1,9 @@
 # King County Metro Expansion
 
+<img width="841" alt="Screenshot 2024-05-08 at 4 54 24 PM" src="https://github.com/mojavemasri/king_county_metro_expansion/assets/56557136/621097eb-e0e7-4394-8506-e963b3b5f97f">
+
+
+
 ## Overview
 This project aims to optimize the locations of metro stops in the Eastern King County metro area using a simulated annealing algorithm, since the current expansion is [under way](https://www.soundtransit.org/system-expansion/east-link-extension). By strategically placing metro stops using, we seek to improve the efficiency and accessibility of this expansion.
 
