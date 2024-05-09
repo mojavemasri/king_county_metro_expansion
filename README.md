@@ -35,6 +35,9 @@ Optimizing metro stop locations for a large geographic area involves a combinato
 ### Genetic Algorithm
 One alternative that could be interesting to explore once more constraints are introduced into this project is generating a finite sample of viable construction points, and running a genetic algorithm to determine the most effective combination of options. This would be more reflective of real world conditions, and would most likely save computational time. However, more data regarding traffic conditions, zoning areas, and geological sites would be required, as well as a manual process of selecting viable areas to build, such as manually adjusting the weighting on the "Points of Interest" to reflect areas which would be optimal for subway construction.
 
+### Ant Colony Optimization (ACO) Algorithm
+Another alternative I came across that I think can be used is an ACO algorithm. This relies on a simulation of pheremone tracking which ants use in order to track food sources. As a result, we can use this algorithm in conjunction with driver data to determine better POIs, as we can get an idea of where people often travel and the optimal routes which can be taken between these points. This algorithm is often used as a solution for the traveling salesman problem and vehicle routing problems, and so I believe this can be used to determine the best candidates for public transportation hubs in King County, and potentially in other Washington state and US metro areas.
+
 ### Fine-Tuning Parameters
 Further experimentation with the simulated annealing algorithm, including adjusting temperature schedules and neighborhood exploration strategies, could potentially improve the quality of the solutions obtained.
 
